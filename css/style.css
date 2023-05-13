@@ -1,0 +1,28 @@
+.container {
+    background-color: lightgray;
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    align-self: flex-end;
+}
+
+.menu__list {
+    max-width: 670px;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    list-style-type: none;
+}
+
+.menu__list-link {
+    text-decoration: none;
+}
