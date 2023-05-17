@@ -43,3 +43,21 @@ body {
     line-height: 19px;
     color: #FFFFFF;
 }
+
+.footer {
+    background-color: #151515;
+    color: #FFFFFF;
+}
+
+.footer a {
+    color: #FFFFFF;
+}
+
+.footer__inner {
+    padding: 50px 99px 32px 81px;
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: space-around;
+}
