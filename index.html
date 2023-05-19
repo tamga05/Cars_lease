@@ -5,11 +5,12 @@
     <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <link href="css/my-normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
     <link href="images/favicon.png" rel="icon"/>
+    <link href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <title>Cars leasing</title>
 </head>
 <body>
@@ -34,7 +35,30 @@
         </div>
     </header>
     <main class="main">
-
+        <section class="top">
+            <div class="container">
+                <h1 class="title">Leasing From D&M</h1>
+                <a class="top__link" href="#">FIND A CAR</a>
+            </div>
+        </section>
+        <div class="slider">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide" style="background-image: url(images/slide-1.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(images/slide-2.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(images/slide-3.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(images/slide-4.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(images/slide-5.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(images/slide-6.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(images/slide-76.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(images/slide-8.jpg);"></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
     </main>
     <footer class="footer">
         <div class="container">
@@ -94,5 +118,7 @@
     </footer>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
