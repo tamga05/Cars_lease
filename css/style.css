@@ -21,7 +21,7 @@ body {
 .header-main {
     background-color: transparent;
     position: absolute;
-    z-index: 5;
+    z-index: 10;
     left: 0;
     right: 0;
 }
@@ -207,6 +207,10 @@ body {
     background-color: #0066FF;
 }
 
+.swiper:hover .swiper-pagination-bullet {
+    opacity: 1;
+}
+
 .swiper-wrapper {
 
 }
@@ -215,6 +219,8 @@ body {
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
+
     /*width: 100%;*/
     /*max-height: 100%;*/
     /*background-repeat: no-repeat;*/
@@ -228,4 +234,27 @@ body {
 /*    background-repeat: no-repeat;*/
 /*}*/
 
+.swiper-pagination {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
 
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 15px;
+}
+
+.swiper-pagination-bullet {
+    width: 120px;
+    height: 3px;
+    background-color: #151515;
+    opacity: .5;
+    opacity: .5;
+    border-radius: 0;
+}
+
+.swiper-pagination-bullet-active {
+    height: 6px;
+    background-color: white;
+}
