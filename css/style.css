@@ -251,6 +251,7 @@ body {
     background-color: #151515;
     opacity: .5;
     opacity: .5;
+    /*opacity: 0;*/
     border-radius: 0;
 }
 
