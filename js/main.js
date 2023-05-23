@@ -5,6 +5,7 @@ const swiper = new Swiper('.swiper', {
     autoplay: {
         delay: 3000,
         disableOnInteraction: false,
+        pauseOnMouseEnter: true,
     },
-    effect: "fade",
+    effect: 'fade',
 });

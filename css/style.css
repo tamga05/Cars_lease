@@ -250,7 +250,7 @@ body {
     height: 3px;
     background-color: #151515;
     opacity: .5;
-    opacity: .5;
+    opacity: .2;
     /*opacity: 0;*/
     border-radius: 0;
 }
@@ -258,4 +258,45 @@ body {
 .swiper-pagination-bullet-active {
     height: 6px;
     background-color: white;
+}
+
+.why-lease {
+    padding: 150px 0;
+}
+
+.why-lease__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.why-lease__list {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.why-lease__item {
+    max-width: 270px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.why-lease__item-img-wrapper {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #0066FF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-lease__item-img {
+
 }
