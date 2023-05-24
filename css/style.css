@@ -304,3 +304,9 @@ body {
 .how-does{
     padding-bottom: 150px;
 }
+
+.how-does__inner {
+    max-width: 594px;
+    width: 100%;
+    margin: 0 auto;
+}
