@@ -287,15 +287,15 @@ body {
     align-items: center;
 }
 
-.why-lease__item-img-wrapper {
-    width: 150px;
-    height: 150px;
-    border: 1px solid #0066FF;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/*.why-lease__item-img-wrapper {*/
+/*    width: 150px;*/
+/*    height: 150px;*/
+/*    border: 1px solid #0066FF;*/
+/*    border-radius: 50%;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
 
 .why-lease__item-img {
 
