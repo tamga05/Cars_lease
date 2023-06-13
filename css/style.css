@@ -249,7 +249,7 @@ body {
     width: 120px;
     height: 3px;
     background-color: #151515;
-    opacity: .5;
+    /*opacity: .5;*/
     opacity: .2;
     /*opacity: 0;*/
     border-radius: 0;
@@ -301,7 +301,7 @@ body {
 
 }
 
-.how-does{
+.how-does {
     padding-bottom: 150px;
 }
 
@@ -310,3 +310,79 @@ body {
     width: 100%;
     margin: 0 auto;
 }
+
+.how-does__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 50px;
+}
+
+.how-does__text {
+    max-width: 580px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 50px;
+}
+
+.how-does__text--bottom {
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+
+.how-does__mini-title {
+    max-width: 580px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 50px;
+}
+
+.how-does__list {
+    counter-reset: myCounter;
+}
+
+.how-does__item {
+    list-style-type: none;
+    width: 270px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    position: relative;
+    margin-left: auto;
+    padding: 19px 0 19px 240px;
+    box-sizing: content-box;
+    min-height: 63px;
+}
+
+.how-does__item + .how-does__item {
+    margin-top: 40px;
+}
+
+.how-does__item::before {
+    counter-increment: myCounter;
+    content: counter(myCounter);
+    /*display: inline-block;*/
+    background-color: #0066FF;
+
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
