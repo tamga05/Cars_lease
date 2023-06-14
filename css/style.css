@@ -111,6 +111,10 @@ body {
     color: #FFFFFF;
 }
 
+.footer__menu-link:hover {
+    color: #0066FF;
+}
+
 .footer__menu-item + .footer__menu-item {
     margin-bottom: 20px;
 }
@@ -201,10 +205,12 @@ body {
     line-height: 44px;
     text-transform: uppercase;
     color: #FFFFFF;
+    opacity: .3;
 }
 
 .top__link:hover {
     background-color: #0066FF;
+    opacity: 1;
 }
 
 .swiper:hover .swiper-pagination-bullet {
@@ -385,4 +391,62 @@ body {
     left: 0;
     top: 0;
 }
+
+.welcome {
+    margin-bottom: 150px;
+}
+
+.welcome__inner {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.welcome__title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.welcome__text {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.important {
+    margin-bottom: 150px;
+}
+
+.important__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 20px;
+}
+
+.important__text {
+    margin: 0 auto 50px;
+    max-width: 580px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.important__list {
+    display: flex;
+    gap: 40px;
+}
+
+.important__item-img {
+    margin-bottom: 20px;
+}
+
+
 
