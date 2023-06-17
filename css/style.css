@@ -512,18 +512,24 @@ body {
 }
 
 .form__btn {
-    max-width: 184px;
-    width: 100%;
+    width: 184px;
     height: 47px;
     margin: 0 auto;
-    background: #151515;
+    background-color: #151515;
+    text-transform: uppercase;
     color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    border: none;
+    border: transparent;
 }
+
+.form__btn:hover {
+    background-color: #0066FF;
+}
+
+
 
 
 
