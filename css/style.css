@@ -64,6 +64,10 @@ body {
     color: #0066FF;
 }
 
+.menu__list-link--active {
+    color: #0066FF;
+}
+
 .footer {
     background-color: #151515;
     /*background-color: #0066FF;*/
@@ -575,7 +579,7 @@ body {
     background-color: #151515;
 }
 
-.blog__btn {
+.showmore__link {
     display: block;
     margin: 70px auto 0;
     width: 223px;
@@ -588,8 +592,10 @@ body {
     text-transform: uppercase;
     cursor: pointer;
     border: transparent;
+    padding: 13px 61px;
 }
 
-.blog__btn:hover {
+.showmore__link:hover {
     background-color: #0066FF;
 }
+
