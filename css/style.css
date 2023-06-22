@@ -631,16 +631,26 @@ body {
     color: #0066FF;
 }
 
+/*.tabs__content{*/
+/*    display: grid;*/
+/*    grid-template-rows: repeat(3, 1fr);*/
+/*    gap: 100px;*/
+/*}*/
+
 .tabs__content-item {
-    display: grid;
+    display: none;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
     margin-bottom: 100px;
 }
 
-.tabs__content-item:last-child {
-    margin-bottom: 0;
+.tabs__content-item.tabs__content-item--active {
+    display: grid;
 }
+
+/*.tabs__content-item:last-child {*/
+/*    margin-bottom: 0;*/
+/*}*/
 
 .card {
     text-align: center;
